@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+.liked {
+  color: red;
+}
+
+/* 掲示板投稿一覧 */
+#row {
+  display: flex;
+}
+
+.side {
+  display: flex;
+  margin: 10px 0px 5px 15px;
+}
+
+.a-side {
+  color: white;
+  font-weight: bold;
+  background-color: #4A86E8;
+  padding: 5px 10px;
+}
+
+.a-category {
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  padding: 5px 10px;
+}
+
+.category {
+  display: block;
+  margin: 15px 0px 0px 20px;
+}
+
+.title {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mainCategory {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.subCategory {
+  margin: 10px 0px 10px 15px;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: #4A86E8;
+  padding: 5px 10px;
+}
+
+.form-control {
+  background-color: #EEEEEE;
+  border: solid 1px #939393;
+  padding: 5px;
+}
+
+.top {
+  display: flex;
+  padding: 5px;
+}
+
+.topTitle {
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.sub_category {
+  color: white;
+  font-size: 14px;
+  background-color: #4A86E8;
+  padding: 5px 10px;
+  margin: 0px 10px 5px 0px;
+}
+
+.posts {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.tops {
+  border: solid 1px;
+}
+
+h1 {
+  padding: 15px 20px;
+  font-size: 17px;
+}
+
+.logout {
+  display: inline-block;
+  margin-left: 400px;
+  color: white;
+  background-color: #4A86E8;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+
+/* カテゴリー追加画面 */
+.add {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.new {
+  display: flex;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.add-input {
+  width: 250px;
+  height: 25px;
+  background-color: #EEEEEE;
+  border: solid 1px #939393;
+  margin: 5px;
+}
+
+.post-input {
+  background-color: #EEEEEE;
+  border: solid 1px #939393;
+}
+
+.register {
+  font-size: 16px;
+  width: 255px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.register2 {
+  font-size: 16px;
+  width: 370px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 25px;
+}
+
+.register3 {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 9px 169px;
+  margin-top: 15px;
+}
+
+.add2 {
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.dele {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.detail {
+  display: flex;
+  margin: 10px 0px 10px 20px;
+}
+
+.comment {
+  display: flex;
+}
+
+.count {
+  margin-left: 160px;
+}
+
+.detail-min {
+  padding: 10px 0px;
+}
+
+.edit {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 5px 25px;
+  margin-left: 310px;
+}
+
+.edit-comment {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  background-color: #CC4125;
+  border: none;
+  padding: 10px 25px;
+  margin-left: 160px;
+}
+
+.detail-max {
+  margin-left: 220px;
+}
+
+.commentPost {
+  display: block;
+  border-bottom: 1px solid #6C6C6C;
+}
+
+.commentPosts {
+  margin-top: 30px;
+}
+
+.favorite i {
+  padding-left: 470px;
+}
+
+.comment-text {
+  margin-top: 20px;
+  width: 450px;
+  height: 60px;
+}
